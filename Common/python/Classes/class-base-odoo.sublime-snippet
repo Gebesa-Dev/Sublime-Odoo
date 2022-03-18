@@ -11,8 +11,9 @@ class ${1:ClassName}(models.Model):
     	size=${6:64},
     	required=${7:False},
     	readonly=${8:False},
-    	default={$9:False}
-    )$0
+    	default=${$9:False}
+    )
+$0
 ]]></content>
     <tabTrigger>class</tabTrigger>
     <scope>source.python</scope>

@@ -1,0 +1,15 @@
+<!-- Odoo Python Snippets -->
+
+<snippet>
+    <content><![CDATA[
+${1:field_name} = fields.Selection(
+    [('${2:o1}', '${3:Option 1}'),
+     ('${4:o2}', '${5:Option 2}')],
+    string='${6:Field Label}',
+    default='${7:o1}',
+)$0
+]]></content>
+    <tabTrigger>fields.Selection</tabTrigger>
+    <scope>source.python</scope>
+    <description>selection field (Odoo)</description>
+</snippet>

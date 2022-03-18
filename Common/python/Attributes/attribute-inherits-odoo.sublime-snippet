@@ -2,7 +2,7 @@
 
 <snippet>
     <content><![CDATA[
-_inherits = '{'${1:Odoo.model}': '${2:model_id}'}
+_inherits = {'${1:Odoo.model}': '${2:model_id}'}
 ]]></content>
     <tabTrigger>_inherits</tabTrigger>
     <scope>source.python</scope>

@@ -2,7 +2,7 @@
 
 <snippet>
     <content><![CDATA[
-<button name="${1:function_name}" states="${2:state}" string="${3:string}" type="object" icon="${4:icon}"/>
+button name="${1:function_name}" states="${2:state}" string="${3:string}" type="object" icon="${4:icon}"/>
 ]]></content>
     <tabTrigger>button</tabTrigger>
     <scope>text.xml</scope>

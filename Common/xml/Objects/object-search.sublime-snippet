@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-<record id="${1:view_module}_search" model="ir.ui.view">
+record id="${1:view_module}_search" model="ir.ui.view">
     <field name="name">${2:model}.search</field>
     <field name="model">${2:model}</field>
     <field name="arch" type="xml">
